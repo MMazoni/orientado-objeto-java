@@ -1,4 +1,4 @@
-package aula01;
+package lista01.ex1;
 
 class Churrasco {
 	public static void main(String[] args) {
