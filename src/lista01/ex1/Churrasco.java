@@ -1,20 +1,22 @@
 package lista01.ex1;
 
 class Churrasco {
-	public static void main(String[] args) {
-		Pessoa people = new Pessoa("Matheus", "masculino", 21, false);
+	
+	double qtdCarne;
+	
+	public Churrasco(double qtdCarne) {
+		this.qtdCarne = qtdCarne;
+	}
 
-		
-		// ConsumaÃ§Ã£o mÃ©dia de carne/dia
-		
+	void verificarConsumo(Pessoa people) {
 		if (people.idade >= 0 && people.idade < 4 || people.vegetariana==true) {
-			System.out.println("NÃ£o consome carne!");
+			System.out.println(people.nome + " não consome carne!");
 		}
 		else if (people.idade > 3 && people.idade < 13) {
-			System.out.println("Consome 1kg de carne por dia.");
+			System.out.println(people.nome + " consome 1kg de carne em média");
 		}
 		else if (people.idade > 12) {
-			System.out.println("Consome 2kg de carne por dia");
+			System.out.println(people.nome + " consome 2kg de carne em média");
 		}
 	}
 }
