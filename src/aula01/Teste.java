@@ -3,14 +3,14 @@ package aula01;
 class Teste {
 	public static void main(String[] args) {
 		Cachorro c = new Cachorro();
-		c.raça = "SRD";
+		c.raca = "SRD";
 		c.nome = "Rex";
 		c.latir();
-		c.mostrarRaça();
+		c.mostrarRaca();
 		Cachorro d = new Cachorro();
 		d.nome = "Benji";
-		d.raça = "Pitbull";
+		d.raca = "Pitbull";
 		d.latir();
-		d.mostrarRaça();
+		d.mostrarRaca();
 	}
 }
