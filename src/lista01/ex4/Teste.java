@@ -5,9 +5,9 @@ public class Teste {
 	public static void main(String[] args) {
 		TrianguloEquilatero t = new TrianguloEquilatero(13);
 		t.calcArea();
-		t.getArea();
+		System.out.println(t.getArea());
 		t.calcPerimetro();
-		t.getPerimetro();
+		System.out.println(t.getPerimetro());
 
 	}
 
