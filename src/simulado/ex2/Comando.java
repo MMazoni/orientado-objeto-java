@@ -7,7 +7,7 @@ public class Comando {
 
     public Comando (int valor, Acao acao){
         this.valor = valor;
-        this.acao = fazerAcao(acao);
+        this.acao = acao;
     }
 
     public Acao fazerAcao(Acao acao){

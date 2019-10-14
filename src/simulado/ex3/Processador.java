@@ -33,10 +33,10 @@ public class Processador {
                     x = 0;
                     break;
                 case DECREMENTAR:
-                    x--;
+                    x = x - i.getValor();
                     break;
                 case INCREMENTAR:
-                    x++;
+                    x = x + i.getValor();
                     break;
             }
         }
