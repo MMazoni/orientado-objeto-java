@@ -10,6 +10,6 @@ public class Produto {
     }
 
     public void mostrarProduto(){
-        System.out.println("Produto  |" + nome + "|" + preco + "|");
+        System.out.println("Produto => |" + nome + "|" + preco + "|");
     }
 }
